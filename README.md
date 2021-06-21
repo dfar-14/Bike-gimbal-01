@@ -1,6 +1,6 @@
 # Bike-gimbal-01
 This project is intended for the creation of a gimbal that can be used on the handlebars of a bike and eliminates the vibration caused by going down trails on a mountain bike.
 ## Initial steps
-For the creation of this project first research needed to be done into the way that gimbals work and the way that they would need to be controlled.
+For the creation of this project first research needed to be done into the way that gimbals work and the way that they would need to be controlled. For this problem coordinates are refered to in "Bike" coordinates. This coordinate system will define X as longitudinal to the direction of movment, Y as lateral to movement and Z as normal from the ground.
 ### What I know
-There are multiple ways to create a gimbal. The first way that can be differentiated is the number of axes that the gimbal has. The most common number of axes is 2, 3, or 4.
+There are multiple ways to create a gimbal. The first way that can be differentiated is the number of axes that the gimbal has. The most common number of axes is 2, 3, or 4.The first challenge for me is to figure out how I am going to design the gimbal to be able to move in order to isolate the noise that I want to eliminate. I suspect that the worst of the noise will come from the Z-direction with the second most coming from the X direction. I suspect that Y will have little vibration compared to the other two. I want to go about to confirm whether this is true so I want to build a mount that I can attach to the handlebars of the bike and measure using an IMU.
